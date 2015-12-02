@@ -23,8 +23,7 @@ namespace EventCloud.Users
               userRoleRepository,
               roleRepository,
               userPermissionSettingRepository,
-              unitOfWorkManager,
-              cacheManager)
+              unitOfWorkManager)
         {
         }
     }

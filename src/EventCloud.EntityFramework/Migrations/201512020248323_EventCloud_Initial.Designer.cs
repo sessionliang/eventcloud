@@ -7,13 +7,13 @@ namespace EventCloud.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Adde_Event_MaxRegistrationCount : IMigrationMetadata
+    public sealed partial class EventCloud_Initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Adde_Event_MaxRegistrationCount));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(EventCloud_Initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201510191355136_Adde_Event_MaxRegistrationCount"; }
+            get { return "201512020248323_EventCloud_Initial"; }
         }
         
         string IMigrationMetadata.Source

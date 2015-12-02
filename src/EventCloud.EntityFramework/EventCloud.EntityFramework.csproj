@@ -108,37 +108,9 @@
   <ItemGroup>
     <Compile Include="EntityFramework\EventCloudDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\EventCloudRepositoryBase.cs" />
-    <Compile Include="Migrations\201506210746108_AbpZero_Initial.cs" />
-    <Compile Include="Migrations\201506210746108_AbpZero_Initial.Designer.cs">
-      <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201509081207232_UpdateModuleZeroTo_0_6_9.cs" />
-    <Compile Include="Migrations\201509081207232_UpdateModuleZeroTo_0_6_9.Designer.cs">
-      <DependentUpon>201509081207232_UpdateModuleZeroTo_0_6_9.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201509290947427_Upgrade_To_ModuleZero_0_7_1.cs" />
-    <Compile Include="Migrations\201509290947427_Upgrade_To_ModuleZero_0_7_1.Designer.cs">
-      <DependentUpon>201509290947427_Upgrade_To_ModuleZero_0_7_1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201510191316051_Added_Event_Classes.cs" />
-    <Compile Include="Migrations\201510191316051_Added_Event_Classes.Designer.cs">
-      <DependentUpon>201510191316051_Added_Event_Classes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201510191355136_Adde_Event_MaxRegistrationCount.cs" />
-    <Compile Include="Migrations\201510191355136_Adde_Event_MaxRegistrationCount.Designer.cs">
-      <DependentUpon>201510191355136_Adde_Event_MaxRegistrationCount.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201510201335018_Removed_Age_From_Event.cs" />
-    <Compile Include="Migrations\201510201335018_Removed_Age_From_Event.Designer.cs">
-      <DependentUpon>201510201335018_Removed_Age_From_Event.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201510210723116_Removed_BirthYear_From_User.cs" />
-    <Compile Include="Migrations\201510210723116_Removed_BirthYear_From_User.Designer.cs">
-      <DependentUpon>201510210723116_Removed_BirthYear_From_User.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201510231926262_UpgradeTo_ModuleZero_0_7_3.cs" />
-    <Compile Include="Migrations\201510231926262_UpgradeTo_ModuleZero_0_7_3.Designer.cs">
-      <DependentUpon>201510231926262_UpgradeTo_ModuleZero_0_7_3.cs</DependentUpon>
+    <Compile Include="Migrations\201512020248323_EventCloud_Initial.cs" />
+    <Compile Include="Migrations\201512020248323_EventCloud_Initial.Designer.cs">
+      <DependentUpon>201512020248323_EventCloud_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="EventCloudDataModule.cs" />
@@ -157,29 +129,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201506210746108_AbpZero_Initial.resx">
-      <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201509081207232_UpdateModuleZeroTo_0_6_9.resx">
-      <DependentUpon>201509081207232_UpdateModuleZeroTo_0_6_9.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201509290947427_Upgrade_To_ModuleZero_0_7_1.resx">
-      <DependentUpon>201509290947427_Upgrade_To_ModuleZero_0_7_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201510191316051_Added_Event_Classes.resx">
-      <DependentUpon>201510191316051_Added_Event_Classes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201510191355136_Adde_Event_MaxRegistrationCount.resx">
-      <DependentUpon>201510191355136_Adde_Event_MaxRegistrationCount.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201510201335018_Removed_Age_From_Event.resx">
-      <DependentUpon>201510201335018_Removed_Age_From_Event.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201510210723116_Removed_BirthYear_From_User.resx">
-      <DependentUpon>201510210723116_Removed_BirthYear_From_User.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201510231926262_UpgradeTo_ModuleZero_0_7_3.resx">
-      <DependentUpon>201510231926262_UpgradeTo_ModuleZero_0_7_3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201512020248323_EventCloud_Initial.resx">
+      <DependentUpon>201512020248323_EventCloud_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -17,8 +17,7 @@ namespace EventCloud.Authorization.Roles
             : base(
                 roleRepository,
                 userRoleRepository,
-                rolePermissionSettingRepository,
-                cacheManager)
+                rolePermissionSettingRepository)
         {
         }
     }
